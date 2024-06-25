@@ -1,0 +1,119 @@
+html {
+    background-image: url("https://i.redd.it/vr81495u2d091.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#heading{
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+}
+
+#welcome{
+    text-align: justify;
+    padding: 2px 20px;
+    padding-top: 0px;
+    color: black;
+}
+
+#button_click{
+    border-radius: 5px;
+    background-color: #141619;
+    color: white;
+    border: none;
+    display: block; 
+    margin: 10px auto; 
+    text-align: center; 
+    width: 240px; 
+    padding: 10px;
+}
+
+#button_delete{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    width: 120px; 
+    padding: 5px;
+}
+
+.book {
+    background-color: lightgray;
+    color: black;
+    display: block;
+    padding: 10px; 
+    margin: 20px auto; 
+    border-radius: 10px;
+    width: 80%; 
+    max-width: 80%; 
+    text-align: justify; 
+}
+
+.textbook{
+    margin: auto 10px;
+}
+
+#new {
+    display: flex;
+    justify-content: space-around;
+    margin: 3% auto;
+}
+
+#entry {
+    flex: 1;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+#entries {
+    margin-bottom: 10px;
+}
+
+#entries label {
+    display: block;
+    margin-top: 10px;
+}
+
+#entries input, #entries textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box; 
+}
+
+#entries textarea {
+    height: 100px; 
+    resize: vertical; 
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+  
+footer {
+    flex: 0 0 auto;
+    color: black;
+    text-align: center;
+}

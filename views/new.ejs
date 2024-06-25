@@ -1,0 +1,46 @@
+<%- include('partials/header.ejs'); -%>
+
+<div class="container" id="new">
+  <div class="container" id="entry">
+    <form action="/add" method="post">
+      <h2>Add New Book</h2>
+
+      <div class="container" id="entries">
+        <label for="bookname">Name of the Book</label>
+        <input type="text" name="bookname" id="bookname" required>
+
+        <label for="authorname">Name of the Author</label>
+        <input type="text" name="authorname" id="authorname" required>
+
+        <label for="reviews">Write your Review</label>
+        <textarea name="reviews" id="reviews" required></textarea>
+
+        <label for="rating">Rate out of 5</label>
+        <input type="number" name="rating" id="rating" min="1" max="5" required>
+      </div>
+
+      <button type="submit">Add Book Review</button>
+    </form>
+  </div>
+
+  <div class="container" id="entry">
+    <form action="/edit" method="post">
+      <h2>Edit Review</h2>
+
+      <div class="container" id="entries">
+        <label for="updatedBookName">Name of the Book</label>
+        <input type="text" name="updatedBookName" id="updatedBookName" required>
+
+        <label for="updatedReview">Edit your review</label>
+        <textarea name="updatedReview" id="updatedReview" required></textarea>
+
+        <label for="updateRating">Rate out of 5</label>
+        <input type="number" name="updateRating" id="updateRating" min="1" max="5" required>
+      </div>
+
+      <button type="submit">Update Review</button>
+    </form>
+  </div>
+</div>
+
+<%- include('partials/footer.ejs'); -%>
