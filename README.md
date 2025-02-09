@@ -1,4 +1,4 @@
-# MyLibrary
+# YourLibrary
 
 YourLibrary Web Application
 YourLibrary is a web application built using Node.js with Express.js and PostgreSQL, designed to manage a personal library of books. It allows users to add new books, edit their reviews, rate books, and sort their library by rating or date modified.
